@@ -28,6 +28,11 @@ jobs:
         run: |
           python -m playwright install --with-deps
 
+      - name: Start FastAPI server
+        run: |
+          uvicorn app.main:app --host 127.0.0.1 --port 8000 &
+          sleep 5  # wait for server to start
+
       - name: Run tests with coverage
         run: |
           pytest --cov=app --cov-report=xml --cov-report=term-missing
