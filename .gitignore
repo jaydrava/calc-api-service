@@ -38,6 +38,8 @@ coverage.xml
 # MyPy
 .mypy_cache/
 
+.env
+
 # IDEs and editors
 .vscode/
 .idea/
