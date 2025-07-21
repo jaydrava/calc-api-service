@@ -120,6 +120,10 @@ Verify your image is on Docker Hub by visiting https://hub.docker.com/.
 ![alt text](screenshot/docker_test.png)
 ![alt text](screenshot/local_127_app.png)
 ![alt text](screenshot/local_8000.png)
+![alt text](screenshot/git_action.png)
+
+# Docker Hub link
+https://hub.docker.com/repository/docker/jaydrava/fastapi_calculator
 
 # Notes
 - Ensure Docker and Docker Compose are installed.
